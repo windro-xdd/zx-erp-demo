@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  /* IIBS Brand Colors */
-  --iibs-blue: #0071BD;
-  --iibs-blue-light: #52a8e6;
-  --iibs-blue-dark: #005a9e;
-  --iibs-gold: #C9A227;
+  /* Zecurx Brand Colors (Light Blue) */
+  --zx-blue: #0EA5E9;
+  /* Sky 500 */
+  --zx-blue-light: #38BDF8;
+  /* Sky 400 */
+  --zx-blue-dark: #0284C7;
+  /* Sky 600 */
+  --zx-accent: #F59E0B;
+  /* Amber 500 */
 
   /* Semantic Colors */
-  --primary: var(--iibs-blue);
-  --primary-light: var(--iibs-blue-light);
-  --primary-dark: var(--iibs-blue-dark);
-  --accent: var(--iibs-gold);
+  --primary: var(--zx-blue);
+  --primary-light: var(--zx-blue-light);
+  --primary-dark: var(--zx-blue-dark);
+  --accent: var(--zx-accent);
 
-  /* Legacy Yenepoya refs (mapped to new scheme) */
-  --yen-green: var(--iibs-blue);
-  --yen-green-light: var(--iibs-blue-light);
-  --yen-green-dark: var(--iibs-blue-dark);
-  --yen-gold: var(--iibs-gold);
+  /* Legacy refs mapped to new scheme */
+  --yen-green: var(--zx-blue);
+  --yen-green-light: var(--zx-blue-light);
+  --yen-green-dark: var(--zx-blue-dark);
+  --yen-gold: var(--zx-accent);
+  --iibs-blue: var(--zx-blue);
 
   /* Neutral Palette (Apple-inspired) */
   --bg-primary: #FAFAFA;
@@ -34,7 +39,7 @@
   /* Borders */
   --border-light: rgba(0, 0, 0, 0.06);
   --border-medium: rgba(0, 0, 0, 0.1);
-  --border-focus: var(--yen-green);
+  --border-focus: var(--primary);
 
   /* Shadows (Subtle, Apple-like) */
   --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
@@ -185,7 +190,7 @@ button {
 
 /* Selection */
 ::selection {
-  background: var(--yen-green-light);
+  background: var(--primary-light);
   color: white;
 }
 
