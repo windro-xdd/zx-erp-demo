@@ -45,9 +45,9 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                 >
-                    <span className={styles.badge}>Next-Gen Campus Management</span>
+                    <span className={styles.badge}>Future-Ready Campus Solution</span>
                     <h1 className={styles.title}>
-                        IIBS <span className={styles.highlight}>ERP System</span>
+                        Zecurx <span className={styles.highlight}>ERP System</span>
                     </h1>
 
                     <motion.h1 variants={itemVariants} className={styles.title}>

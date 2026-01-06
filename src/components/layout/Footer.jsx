@@ -14,7 +14,7 @@ const Footer = () => {
                             <span>Yenepoya ERP</span>
                         </div>
                         <h3 className={styles.footerLogo}>
-                            IIBS <span style={{ color: 'var(--yen-green)' }}>ERP</span>
+                            ZX <span style={{ color: 'var(--primary)' }}>ERP</span>
                         </h3>
                     </div>
 

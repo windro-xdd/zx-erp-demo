@@ -54,7 +54,7 @@ const StudentDashboardContent = () => {
         name: 'Dr. Sarah Smith',
         designation: 'Associate Professor',
         department: 'Computer Science',
-        email: 'sarah.smith@iibs.edu.in',
+        email: 'sarah.smith@zecurx.com',
         phone: '+91 9876543210',
         officeHours: 'Mon, Wed: 2-4 PM'
     };
@@ -84,7 +84,7 @@ const StudentDashboardContent = () => {
 
             setStudent({
                 name: 'Alex Johnson',
-                id: 'IIBS2401',
+                id: 'ZX2401',
                 department: 'Computer Science',
                 semester: '6th',
                 attendance: 87,

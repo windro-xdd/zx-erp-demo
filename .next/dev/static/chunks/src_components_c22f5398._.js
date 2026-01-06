@@ -320,16 +320,16 @@ const NavbarContent = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: [
-                                    "IIBS ",
+                                    "Zecurx ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
-                                            color: 'var(--yen-green)'
+                                            color: 'var(--primary)'
                                         },
                                         children: "ERP"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/layout/Navbar.jsx",
                                         lineNumber: 96,
-                                        columnNumber: 32
+                                        columnNumber: 34
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
@@ -718,7 +718,7 @@ const HeroSection = ()=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$landing$2f$HeroSection$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].badge,
-                        children: "Next-Gen Campus Management"
+                        children: "Future-Ready Campus Solution"
                     }, void 0, false, {
                         fileName: "[project]/src/components/landing/HeroSection.jsx",
                         lineNumber: 48,
@@ -727,14 +727,14 @@ const HeroSection = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$landing$2f$HeroSection$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].title,
                         children: [
-                            "IIBS ",
+                            "Zecurx ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$landing$2f$HeroSection$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].highlight,
                                 children: "ERP System"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/landing/HeroSection.jsx",
                                 lineNumber: 50,
-                                columnNumber: 30
+                                columnNumber: 32
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {

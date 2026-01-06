@@ -1,8 +1,8 @@
 import '../index.css';
 
 export const metadata = {
-    title: 'IIBS ERP Portal',
-    description: 'International Institute of Business Studies ERP',
+    title: 'Zecurx ERP',
+    description: 'Next-Gen Enterprise Resource Planning for Colleges',
 };
 
 export default function RootLayout({ children }) {

@@ -51,7 +51,7 @@ const AdminDashboardContent = () => {
     ]);
     const [activities, setActivities] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
-    const [settings, setSettings] = useState({ universityName: 'IIBS Bangalore', sessionYear: '2025-26', registrationOpen: true });
+    const [settings, setSettings] = useState({ universityName: 'Zecurx ERP Demo', sessionYear: '2025-26', registrationOpen: true });
 
     // Form State
     const [newUser, setNewUser] = useState({ name: '', email: '', role: 'student' });
@@ -72,8 +72,8 @@ const AdminDashboardContent = () => {
             const storedUsers = JSON.parse(localStorage.getItem('erp_users') || '[]');
             if (storedUsers.length === 0) {
                 const initialUsers = [
-                    { id: 1, name: 'John Doe', email: 'john@iibs.edu.in', role: 'student' },
-                    { id: 2, name: 'Prof. Sarah', email: 'sarah@iibs.edu.in', role: 'faculty' }
+                    { id: 1, name: 'John Doe', email: 'john@zecurx.com', role: 'student' },
+                    { id: 2, name: 'Prof. Sarah', email: 'sarah@zecurx.com', role: 'faculty' }
                 ];
                 localStorage.setItem('erp_users', JSON.stringify(initialUsers));
                 setUsers(initialUsers);
@@ -336,7 +336,7 @@ const AdminDashboardContent = () => {
                         <input
                             required
                             type="email"
-                            placeholder="name@iibs.edu.in"
+                            placeholder="name@zecurx.com"
                             value={newUser.email}
                             onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
                         />
