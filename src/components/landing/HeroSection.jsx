@@ -37,10 +37,10 @@ const HeroSection = () => {
     ];
 
     return (
-        <section className={styles.heroWrapper} id="home">
-            <div className={styles.container}>
+        <section className={styles.section} id="home">
+            <div className="container">
                 <motion.div
-                    className={styles.content}
+                    className={styles.heroContent}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
