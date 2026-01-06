@@ -27,9 +27,9 @@ const Footer = () => {
                         </div>
                         <div className={styles.column}>
                             <h4>University</h4>
-                            <a href="https://www.yenepoya.edu.in/" target="_blank" rel="noopener noreferrer">Official Website</a>
-                            <a href="https://www.yenepoya.edu.in/about-us" target="_blank" rel="noopener noreferrer">About Us</a>
-                            <a href="https://www.yenepoya.edu.in/contact-us" target="_blank" rel="noopener noreferrer">Contact</a>
+                            <a href="https://www.zecurex.com/" target="_blank" rel="noopener noreferrer">Official Website</a>
+                            <a href="https://www.zecurex.com/about-us" target="_blank" rel="noopener noreferrer">About Us</a>
+                            <a href="https://www.zecurex.com/contact-us" target="_blank" rel="noopener noreferrer">Contact</a>
                         </div>
                     </div>
                 </div>
