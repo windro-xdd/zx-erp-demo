@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
 
                 <div className={styles.bottom}>
-                    <p>© 2026 Yenepoya (Deemed to be University). All rights reserved.</p>
+                    <p>© 2026 Zecurx ERP. All rights reserved.</p>
                     <p className={styles.demo}>Demo Application</p>
                 </div>
             </div>
